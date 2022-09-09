@@ -16,3 +16,8 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+#theme
+cd /package/learn
+git clone https://github.com/thinktip/luci-theme-neobird.git
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
